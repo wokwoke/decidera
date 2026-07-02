@@ -1,0 +1,101 @@
+# Design Book Roadmap
+
+## Purpose
+
+This roadmap tracks the progress of the Decidera Design Book.
+
+It focuses on design maturity rather than software implementation.
+
+---
+
+## Current Phase
+
+Phase: Design First
+
+Current Objective:
+
+Complete the Design Book before implementation begins.
+
+---
+
+## Progress
+
+| Volume | Status | Progress |
+|---------|--------|----------|
+| Volume I — Foundations | 🟡 In Progress | 1 / 4 |
+| Volume II — Core Models | ⚪ Not Started | 0 / 9 |
+| Volume III — Execution | ⚪ Not Started | 0 / 5 |
+| Volume IV — Reference | ⚪ Not Started | 0 / 3 |
+
+---
+
+## Volume I — Foundations
+
+- ✅ 00 Introduction
+- ⏳ 01 Vision
+- ⏳ 02 Principles
+- ⏳ 03 Overview
+
+---
+
+## Volume II — Core Models
+
+- ☐ 04 Domain Model
+- ☐ 05 Architecture
+- ☐ 06 Decision Model
+- ☐ 07 Forum Model
+- ☐ 08 P-Line
+- ☐ 09 Workspace
+- ☐ 10 Artifact Engine
+- ☐ 11 Providers
+- ☐ 12 Registry
+
+---
+
+## Volume III — Execution
+
+- ☐ 13 Development Workflow
+- ☐ 14 Roadmap
+- ☐ 15 ADR
+- ☐ 16 Glossary
+- ☐ 17 Appendix
+
+---
+
+## Design Milestones
+
+### Milestone 1
+
+- Repository initialized
+- Design Book created
+- Introduction completed
+
+### Milestone 2
+
+- Foundations completed
+
+### Milestone 3
+
+- Core Models completed
+
+### Milestone 4
+
+- Execution completed
+
+### Milestone 5
+
+- Design Freeze v1.0
+
+---
+
+## Next Chapter
+
+01 Vision & Philosophy
+
+---
+
+## Notes
+
+This roadmap tracks documentation progress only.
+
+Implementation milestones are maintained separately after the Design Book reaches Design Freeze.
