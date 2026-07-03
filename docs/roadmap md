@@ -1,44 +1,80 @@
 # Design Book Roadmap
 
-## Purpose
-
-This roadmap tracks the progress of the Decidera Design Book.
-
-It focuses on design maturity rather than software implementation.
+> Status: Active
+>
+> Version: 0.1
 
 ---
 
-## Current Phase
+# Purpose
 
-Phase: Design First
+This roadmap tracks the progress of the Decidera Design Book.
 
-Current Objective:
+Unlike a software roadmap, this document measures the maturity of the project's design and documentation.
+
+Implementation milestones are planned only after the Design Book reaches an acceptable level of completeness.
+
+---
+
+# Current Phase
+
+Phase
+
+Design Phase
+
+Current Objective
 
 Complete the Design Book before implementation begins.
 
 ---
 
-## Progress
+# Design Workflow
 
-| Volume | Status | Progress |
-|---------|--------|----------|
-| Volume I — Foundations | 🟡 In Progress | 1 / 4 |
-| Volume II — Core Models | ⚪ Not Started | 0 / 9 |
-| Volume III — Execution | ⚪ Not Started | 0 / 5 |
-| Volume IV — Reference | ⚪ Not Started | 0 / 3 |
+Every chapter follows the same lifecycle.
+
+Discussion
+↓
+
+Draft
+
+↓
+
+Review
+
+↓
+
+Design Freeze
+
+↓
+
+Implementation
+
+↓
+
+Continuous Improvement
 
 ---
 
+# Design Book Progress
+
 ## Volume I — Foundations
 
-- ✅ 00 Introduction
-- ⏳ 01 Vision
-- ⏳ 02 Principles
-- ⏳ 03 Overview
+Status: In Progress
+
+Contents
+
+- ☐ 00 Introduction
+- ☐ 01 Vision
+- ☐ 02 Principles
+- ☐ 03 Overview
 
 ---
 
 ## Volume II — Core Models
+
+Status: Not Started
+
+Contents
 
 - ☐ 04 Domain Model
 - ☐ 05 Architecture
@@ -47,55 +83,151 @@ Complete the Design Book before implementation begins.
 - ☐ 08 P-Line
 - ☐ 09 Workspace
 - ☐ 10 Artifact Engine
-- ☐ 11 Providers
+- ☐ 11 Integrations
 - ☐ 12 Registry
 
 ---
 
-## Volume III — Execution
+## Volume III — Development
+
+Status: Not Started
+
+Contents
 
 - ☐ 13 Development Workflow
 - ☐ 14 Roadmap
-- ☐ 15 ADR
+- ☐ 15 Architecture Decision Records (ADR)
+
+---
+
+## Volume IV — Reference
+
+Status: Not Started
+
+Contents
+
 - ☐ 16 Glossary
 - ☐ 17 Appendix
+- ☐ 18 Whitepaper
 
 ---
 
-## Design Milestones
+# Design Milestones
 
-### Milestone 1
+## Milestone 1
 
-- Repository initialized
-- Design Book created
-- Introduction completed
+Repository Initialized
 
-### Milestone 2
+Design Book Created
 
-- Foundations completed
-
-### Milestone 3
-
-- Core Models completed
-
-### Milestone 4
-
-- Execution completed
-
-### Milestone 5
-
-- Design Freeze v1.0
+Documentation Structure Defined
 
 ---
 
-## Next Chapter
+## Milestone 2
 
-01 Vision & Philosophy
+Volume I Completed
 
 ---
 
-## Notes
+## Milestone 3
 
-This roadmap tracks documentation progress only.
+Core Models Completed
 
-Implementation milestones are maintained separately after the Design Book reaches Design Freeze.
+---
+
+## Milestone 4
+
+Development Documentation Completed
+
+---
+
+## Milestone 5
+
+Design Book Version 1.0
+
+Design Freeze
+
+---
+
+## Milestone 6
+
+Implementation Begins
+
+---
+
+# Long-Term Vision
+
+After Design Freeze, Decidera will evolve through multiple implementation phases.
+
+Possible future phases include:
+
+- Phase 0 — Bootstrap
+- Phase 1 — Core Workspace
+- Phase 2 — Forum Engine
+- Phase 3 — Artifact Engine
+- Phase 4 — Provider Integration
+- Phase 5 — AI Capability
+- Phase 6 — Ecosystem Expansion
+
+These phases remain conceptual until the Design Book is finalized.
+
+---
+
+# Guiding Principles
+
+The roadmap follows several principles.
+
+- Design before implementation.
+- Documentation before automation.
+- Decisions before coding.
+- Stable architecture before optimization.
+- Evolution through documented changes.
+
+---
+
+# Progress Tracking
+
+Each document is expected to progress through the following states.
+
+Draft
+
+↓
+
+Reviewed
+
+↓
+
+Design Freeze
+
+↓
+
+Implemented
+
+↓
+
+Maintained
+
+The objective is not merely to finish documentation, but to establish a reliable and maintainable design foundation.
+
+---
+
+# Summary
+
+The Design Book Roadmap provides visibility into the maturity of Decidera's design.
+
+It serves as a planning tool, ensuring that implementation begins only after the underlying concepts have been sufficiently documented and validated.
+
+---
+
+# Related Documents
+
+README.md
+
+structure.md
+
+00-introduction/
+
+01-vision/
+
+13-development-workflow/
