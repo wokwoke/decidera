@@ -1,96 +1,147 @@
-# Chapter 02 — Principles
+# Decidera Design Book
 
 > Status: Draft
 >
 > Version: 0.1
+>
+> Project: Decidera
+>
+> Purpose: Design Documentation
 
 ---
 
-# Purpose
+# Introduction
 
-This chapter defines the fundamental principles that guide the design and evolution of Decidera.
+Welcome to the Decidera Design Book.
 
-While the Vision chapter explains why Decidera exists, the Principles chapter establishes how the framework should be designed, evaluated, and maintained.
+This documentation serves as the single source of truth for the design, architecture, philosophy, and evolution of the Decidera project.
 
-These principles are intended to remain stable over time and provide a consistent foundation for architectural and engineering decisions.
+Rather than documenting implementation details, this book focuses on the decisions that shape the system before implementation begins.
 
----
-
-# Scope
-
-This chapter covers the core principles of Decidera:
-
-- Architecture First
-- Discussion First
-- Design Freeze
-- Auditability
-- Evolvability
-
-Together, these principles define the engineering mindset behind the framework.
+Decidera follows a Design First methodology, where discussion, architecture, and documentation precede source code.
 
 ---
 
-# Principles
+# Design Philosophy
 
-## Architecture First
+The Design Book is intended to:
 
-Architecture should be established before implementation begins.
+- Document ideas before implementation.
+- Preserve architectural knowledge.
+- Record design decisions.
+- Maintain traceability.
+- Guide future development.
+- Reduce creator cognitive load.
 
----
-
-## Discussion First
-
-Important decisions should emerge from structured discussions rather than assumptions.
-
----
-
-## Design Freeze
-
-Implementation begins only after the design reaches an agreed level of maturity.
+The implementation should follow the Design Book, not the other way around.
 
 ---
 
-## Auditability
+# Documentation Structure
 
-Every important decision and artifact should remain traceable throughout the project lifecycle.
+## Volume I — Foundations
 
----
-
-## Evolvability
-
-The framework should be designed to evolve without losing historical knowledge or architectural consistency.
-
----
-
-# Relationship to Other Chapters
-
-This chapter builds upon:
-
+- 00 Introduction
 - 01 Vision
-
-and provides the foundation for:
-
+- 02 Principles
 - 03 Overview
+
+---
+
+## Volume II — Core Models
+
 - 04 Domain Model
 - 05 Architecture
 - 06 Decision Model
-
-Every architectural document should remain consistent with the principles described here.
-
----
-
-# Summary
-
-The Principles chapter defines the engineering values that shape Decidera.
-
-They serve as long-term guidance for both design and implementation, ensuring that the framework evolves without compromising its core philosophy.
+- 07 Forum Model
+- 08 P-Line
+- 09 Workspace
+- 10 Artifact Engine
+- 11 Integrations
+- 12 Registry
 
 ---
 
-# Next Documents
+## Volume III — Development
 
-- architecture-first.md
-- discussion-first.md
-- design-freeze.md
-- auditability.md
-- evolvability.md
+- 13 Development Workflow
+- 14 Roadmap
+- 15 ADR
+
+---
+
+## Volume IV — Reference
+
+- 16 Glossary
+- 17 Appendix
+- 18 Whitepaper
+
+---
+
+# Design Lifecycle
+
+Every document follows the same lifecycle.
+
+Draft
+    ↓
+Review
+    ↓
+Design Freeze
+    ↓
+Implementation
+    ↓
+Evolution
+Implementation never replaces the design.
+
+Instead, implementation evolves from the design.
+
+---
+
+# Repository Principles
+
+This repository prioritizes:
+
+- Design over implementation.
+- Decisions over assumptions.
+- Documentation over memory.
+- Evolution over perfection.
+- Traceability over convenience.
+
+---
+
+# Contribution Workflow
+
+Every contribution should follow this sequence:
+
+Discussion
+    ↓
+Finding
+    ↓
+Decision
+    ↓
+Documentation
+    ↓
+Review
+    ↓
+Design Freeze
+    ↓
+Implementation
+---
+
+# Current Status
+
+Current Phase:
+
+Design Phase
+
+Current Objective:
+
+Complete the Design Book before implementation begins.
+
+---
+
+# Related Documents
+
+- structure.md
+- roadmap.md
+- templates/
