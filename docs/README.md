@@ -1,12 +1,12 @@
 # Decidera Design Book
 
-> **Status:** Draft
+> Status: Draft
 >
-> **Version:** 0.1
+> Version: 0.1
 >
-> **Project:** Decidera
+> Project: Decidera
 >
-> **Purpose:** Design Documentation
+> Purpose: Design Documentation
 
 ---
 
@@ -18,7 +18,7 @@ This documentation serves as the single source of truth for the design, architec
 
 Rather than documenting implementation details, this book focuses on the decisions that shape the system before implementation begins.
 
-Decidera follows a **Design First** methodology, where discussion, architecture, and documentation precede source code.
+Decidera follows a Design First methodology, where discussion, architecture, and documentation precede source code.
 
 ---
 
@@ -82,7 +82,6 @@ The implementation should follow the Design Book, not the other way around.
 
 Every document follows the same lifecycle.
 
-```text
 Draft
     ↓
 Review
@@ -92,8 +91,6 @@ Design Freeze
 Implementation
     ↓
 Evolution
-```
-
 Implementation never replaces the design.
 
 Instead, implementation evolves from the design.
@@ -116,7 +113,6 @@ This repository prioritizes:
 
 Every contribution should follow this sequence:
 
-```text
 Discussion
     ↓
 Finding
@@ -130,15 +126,13 @@ Review
 Design Freeze
     ↓
 Implementation
-```
-
 ---
 
 # Current Status
 
 Current Phase:
 
-**Design Phase**
+Design Phase
 
 Current Objective:
 
