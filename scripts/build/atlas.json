@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "repository": "decidera",
+  "branch": "main",
+  "timestamp": "2026-07-05T15:18:27.590525Z",
+  "commit": {
+    "hash": "91daf0adcd4a1491be3c6f985299a81edd327602",
+    "author": "wokwoke",
+    "message": "upload atlas metadata artifact"
+  },
+  "changes": {
+    "files": [
+      ".github/workflows/atlas.yml",
+      "scripts/atlas.py"
+    ]
+  }
+}
