@@ -1,28 +1,28 @@
 name: Atlas Workflow
 
 on:
-  push:
-    branches:
-      - main
+  push:
+    branches:
+      - main
 
 jobs:
-  atlas:
-    runs-on: ubuntu-latest
+  atlas:
+    runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
-      - name: Show Python Version
-        run: python --version
+      - name: Show Python Version
+        run: python --version
 
       - name: Run Atlas
-        run: python scripts/atlas.py
+        run: python scripts/atlas.py
 
       - name: Upload Atlas Artifact
         uses: actions/upload-artifact@v4
