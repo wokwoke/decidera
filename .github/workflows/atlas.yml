@@ -21,7 +21,7 @@ jobs:
       - name: Show Python Version
         run: python --version
 
-      - name: Run Atlas
+      - name: Run Atlas
         run: python scripts/atlas.py
 
       - name: Upload Atlas Artifact
