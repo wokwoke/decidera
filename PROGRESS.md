@@ -1,93 +1,99 @@
-# Progress
+# Progress — Decidera
 
-## Purpose
+> Last updated: 2026-07-08
 
-Progress documents the implementation progress of Decidera over time.
-
-Its purpose is to provide a high-level overview of the project's current state, completed milestones, active development phase, and next planned steps.
-
-This document is intended to help creators quickly regain project context after a pause and to provide a concise view of the project's evolution.
-
-Progress is not a replacement for Git history, Roadmap, Architecture documentation, or Architecture Decision Records (ADR). Instead, it complements those documents by summarizing where the project currently stands.
-
-## Scope
-
-This document includes:
-
-- Overall project status
-- Development phases
-- Major milestones
-- Current focus
-- Next planned steps
-
-This document does not include:
-
-- Detailed implementation history
-- Technical specifications
-- Design decisions
-- Release notes
-- Task-level tracking
-
-## Current Status
+## Project Status
 
 Status:
-Bootstrap
+Development
 
 Current Phase:
-Phase 1 — ATLAS Bootstrap
-
-Current Focus:
-GitHub Actions completed. Preparing AI Summary pipeline.
-
-Next Step:
-Phase 2 — Atlas Metadata
+Phase 2 — Atlas Publishing
 
 ---
 
-## Progress
+# Phase 0 — Repository Foundation
 
-### Phase 0 — Repository Foundation
-
-Status:
-Completed
-
-Completed:
+Status: Completed
 
 - [x] Repository created
-- [x] Folder structure
-- [x] Documentation skeleton
-- [x] Architecture documents
+- [x] Git initialization
+- [x] Basic folder structure
+- [x] Documentation framework
+- [x] Initial architecture documents
 
-### Phase 1 — ATLAS Bootstrap
+---
 
-Status:
-Completed
+# Phase 1 — Atlas Foundation
 
-Objective:
+Status: Completed
 
-Build the first automated metadata pipeline for Atlas.
+Goal:
+Create the first project evolution tracking mechanism.
 
 Completed:
 
 - [x] atlas.py created
-- [x] Timestamp metadata
-- [x] Git metadata
-  - Branch
-  - Commit
-  - Author
-  - Message
-- [x] GitHub Actions
-- [x] Workflow execution
-- [x] atlas.py execution
-- [x] Artifact upload (atlas.json)
+- [x] Repository metadata extraction
+- [x] Git branch detection
+- [x] Commit hash extraction
+- [x] Commit author extraction
+- [x] Commit message extraction
+- [x] Change detection
+- [x] Generate build/atlas.json
 
-## Next Phase
+---
 
-### Phase 2 — Atlas Metadata
+# Phase 2 — Atlas Publishing
+
+Status:
+In Development
+
+Goal:
+Make every repository change automatically produce a readable evolution record.
+
+Completed:
+
+- [x] GitHub Actions workflow created
+- [x] Automatic atlas.py execution
+- [x] Artifact upload enabled
+- [x] atlas-json artifact generated successfully
+
+Current:
+
+- [ ] AI Summary Generator
+- [ ] OpenRouter integration
+- [ ] Generate human-readable atlas summary
+- [ ] Upload atlas-summary artifact
+
+---
+
+# Future Phase
+
+## Phase 3 — Atlas Intelligence
 
 Planned:
 
-- [ ] Artifact enrichment
-- [ ] Metadata schema v1.1
-- [ ] Multiple outputs
-- [ ] Validation
+- [ ] Structured Atlas Entry
+- [ ] Context extraction
+- [ ] Change interpretation
+- [ ] Decision recording
+- [ ] Recommendation generation
+
+---
+
+## Development Principle
+
+Decidera development follows:
+
+Discussion
+↓
+Decision
+↓
+Implementation
+↓
+Verification
+↓
+Progress Update
+
+Progress is a memory layer, not a replacement for Git history, PRD, ADR, or technical documentation.
