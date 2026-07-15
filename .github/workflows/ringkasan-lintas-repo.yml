@@ -1,0 +1,30 @@
+name: Ringkasan Lintas Repo
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  ringkas:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo asal
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate & push ringkasan
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CROSS_REPO_TOKEN: ${{ secrets.CROSS_REPO_TOKEN }}
+          TARGET_REPO: "wokwoke/atlas-genesis"
+          SOURCE_REPO: ${{ github.repository }}
+        run: python .github/scripts/buat_ringkasan.py
