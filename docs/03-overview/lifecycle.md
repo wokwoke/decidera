@@ -131,3 +131,45 @@ The lifecycle establishes several fundamental characteristics of Decidera:
 ## Examples
 
 A discussion identifies limitations in the current architecture.
+
+The architecture team discusses several possible improvements.
+
+The discussion produces multiple findings.
+
+After evaluation, one finding becomes an approved decision.
+
+The architecture is updated and reviewed.
+
+Following Design Freeze, the approved design is transformed into project artifacts.
+
+The implementation is validated.
+
+Lessons learned initiate the next lifecycle.
+
+---
+
+## Non-Goals
+
+This lifecycle does not prescribe a specific software development methodology.
+
+It is compatible with Agile, Scrum, Kanban, Waterfall, or other project management approaches.
+
+Its purpose is to describe how engineering knowledge evolves within Decidera.
+
+---
+
+## Related Documents
+
+- ecosystem.md
+- components.md
+- ../02-principles/design-freeze.md
+- ../06-decision-model/README.md
+- ../13-development-workflow/README.md
+
+---
+
+## Summary
+
+The Decidera Lifecycle describes how engineering knowledge continuously evolves from discussion into validated artifacts.
+
+Rather than treating implementation as the beginning of software development, Decidera considers implementation to be one stage within a broader engineering lifecycle driven by structured discussions, informed decisions, and continuous evolution.
