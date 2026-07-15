@@ -5,30 +5,91 @@
 ### Completed
 
 - Completed Chapter 04 — Domain Model.
-- Added Domain Model overview.
-- Defined Workspace.
-- Defined Forum.
-- Defined Persona.
-- Defined Atlas.
-- Defined Finding.
-- Defined Decision.
-- Defined Artifact.
-- Defined Provider.
-- Defined Registry.
+- Completed Chapter 05 — Architecture.
+- Completed Chapter 06 — Workflows.
+- Continued Chapter 07 — Registry.
+- Completed Chapter 08 — Capability.
+
+### Domain Model Completed
+
+Defined:
+
+- Workspace
+- Forum
+- Persona
+- Atlas
+- Finding
+- Decision
+- Artifact
+- Provider
+- Registry
+
+### Workflow Foundation Completed
+
+Defined:
+
+- Workflow Overview
+- Workflow Lifecycle
+- Workflow Types
+- Workflow Coordination
+- Workflow States
+- Workflow Composition
+- Workflow Recovery
+
+### Registry Foundation Completed
+
+Defined:
+
+- Registry Overview
+- Registry Model
+- Registry Types
+- Registry Lifecycle
+- Registry Discovery
+- Registry Validation
+
+Remaining:
+
+- Registry Evolution
+
+### Capability Foundation Completed
+
+Defined:
+
+- Capability Overview
+- Capability Model
+- Capability Types
+- Capability Lifecycle
+- Capability Discovery
+- Capability Composition
+- Capability Evolution
 
 ### Design Decisions
 
-- Domain Model becomes the canonical vocabulary of Decidera.
-- Workspace is the root engineering context.
-- Forum organizes engineering discussions.
-- Persona represents engineering responsibilities rather than identities.
-- Atlas preserves engineering evolution rather than commit history.
-- Findings represent validated knowledge.
-- Decisions are supported by Findings.
-- Artifacts originate from Decisions.
-- Providers supply external capabilities.
+- Repository remains the Single Source of Truth.
+- Domain Model remains the canonical vocabulary.
 - Registry provides discoverability rather than storage.
+- Capability defines abilities rather than implementations.
+- Provider implements capabilities.
+- Workflow consumes capabilities.
+- Atlas preserves engineering evolution.
+
+### Core Relationship
+
+Workflow
+
+↓
+
+Capability
+
+↓
+
+Provider
+
+
+Registry discovers and connects system resources.
 
 ### Next Milestone
 
-Begin Chapter 05 — Architecture.
+Complete Chapter 07 — Registry Evolution.
+
+Then continue Design Book expansion.
