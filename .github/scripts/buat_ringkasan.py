@@ -103,5 +103,26 @@ def main():
 
     jalankan("rm -rf /tmp/target_repo")
     clone_url = f"https://x-access-token:{CROSS_REPO_TOKEN}@github.com/{TARGET_REPO}.git"
-    hasil_clone = subprocess.run(f"git clone {clone_url} /tmp/targ
-…(dipotong)
+    hasil_clone = subprocess.run(f"git clone {clone_url} /tmp/target_repo", shell=True, capture_output=True, text=True)
+    if hasil_clone.returncode != 0:
+        print("Gagal clone repo tujuan:", hasil_clone.stderr)
+        raise SystemExit(1)
+
+    with open(f"/tmp/target_repo/{nama_file}", "w") as f:
+        f.write(isi_file)
+
+    jalankan("git config user.name 'ringkasan-bot'", cwd="/tmp/target_repo")
+    jalankan("git config user.email 'ringkasan-bot@users.noreply.github.com'", cwd="/tmp/target_repo")
+    jalankan(f"git add {nama_file}", cwd="/tmp/target_repo")
+    jalankan(f"git commit -m 'Ringkasan: {judul}'", cwd="/tmp/target_repo")
+    hasil_push = subprocess.run("git push origin main", shell=True, cwd="/tmp/target_repo", capture_output=True, text=True)
+    print(hasil_push.stdout)
+    print(hasil_push.stderr)
+    if hasil_push.returncode != 0:
+        raise SystemExit(1)
+
+    print(f"Berhasil: {nama_file}")
+
+
+if __name__ == "__main__":
+    main()
