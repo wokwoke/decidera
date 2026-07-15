@@ -6,45 +6,40 @@
 
 Added
 
-- Completed Chapter 08 Capability.
-- Completed Chapter 09 Provider.
+- Completed Chapter 10 Runtime.
 
-Capability additions:
+Runtime additions:
 
-- Capability Overview.
-- Capability Model.
-- Capability Types.
-- Capability Lifecycle.
-- Capability Discovery.
-- Capability Composition.
-- Capability Evolution.
-
-Provider additions:
-
-- Provider Overview.
-- Provider Model.
-- Provider Types.
-- Provider Lifecycle.
-- Provider Discovery.
-- Provider Selection.
-- Provider Composition.
-- Provider Evolution.
+- Runtime Overview.
+- Runtime Model.
+- Runtime Execution.
+- Runtime State.
+- Runtime Event.
+- Runtime Orchestration.
+- Runtime Recovery.
+- Runtime Evolution.
 
 Changed
 
-- Established Capability as the abstraction of system abilities.
-- Established Provider as the implementation layer.
-- Defined relationship:
+- Established Runtime as the execution layer of Decidera.
+- Defined execution boundaries between Workflow, Capability, Provider, and Runtime.
+- Completed the three primary architectural layers.
 
-Workflow
-→ Capability
-→ Provider
+Architecture now consists of:
 
-- Strengthened Registry role as discovery layer.
+Engineering Knowledge
+
+↓
+
+Engineering Architecture
+
+↓
+
+Engineering Runtime
 
 Notes
 
-The main architectural abstraction layers are now defined:
+The Design Foundation now includes:
 
 - Domain Model
 - Architecture
@@ -52,8 +47,6 @@ The main architectural abstraction layers are now defined:
 - Registry
 - Capability
 - Provider
+- Runtime
 
-Remaining work:
-
-- Complete Registry Evolution.
-- Continue Design Book with Runtime chapter.
+The next milestone is Design Review v1.0 to validate consistency, architectural boundaries, and overall design completeness before introducing new chapters.

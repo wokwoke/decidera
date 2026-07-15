@@ -10,6 +10,7 @@
 - Continued Chapter 07 — Registry.
 - Completed Chapter 08 — Capability.
 - Completed Chapter 09 — Provider.
+- Completed Chapter 10 — Runtime.
 
 ---
 
@@ -89,36 +90,47 @@ Defined:
 
 ---
 
-## Design Decisions
+## Runtime Foundation Completed
 
-- Repository remains the Single Source of Truth.
-- Domain Model remains the canonical vocabulary.
-- Registry provides discoverability rather than storage.
-- Capability defines abilities rather than implementations.
-- Provider implements capabilities.
-- Workflow consumes capabilities.
-- Atlas preserves engineering evolution.
+Defined:
+
+- Runtime Overview
+- Runtime Model
+- Runtime Execution
+- Runtime State
+- Runtime Event
+- Runtime Orchestration
+- Runtime Recovery
+- Runtime Evolution
 
 ---
 
-## Core Relationship
+## Architectural Layers
 
-Workflow
-
-↓
-
-Capability
+Engineering Knowledge
 
 ↓
 
-Provider
+Engineering Architecture
 
+↓
 
-Registry discovers and connects resources.
+Engineering Runtime
+
+---
+
+## Design Decisions
+
+- Repository remains the Single Source of Truth.
+- Runtime executes engineering definitions without changing engineering intent.
+- Workflow defines process.
+- Capability defines abilities.
+- Provider implements capabilities.
+- Runtime coordinates execution.
+- Atlas preserves engineering evolution.
 
 ---
 
 ## Next Milestone
 
-Begin Chapter 10 — Runtime.
-
+Design Review v1.0

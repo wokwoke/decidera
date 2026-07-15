@@ -18,21 +18,13 @@ Completed:
 - Chapter 06 Workflows
 - Chapter 08 Capability
 - Chapter 09 Provider
+- Chapter 10 Runtime
 
 ---
 
 ## In Progress
 
 Chapter 07 — Registry
-
-Completed:
-
-- Registry Overview
-- Registry Model
-- Registry Types
-- Registry Lifecycle
-- Registry Discovery
-- Registry Validation
 
 Remaining:
 
@@ -46,42 +38,37 @@ Design Foundation
 
 ---
 
-## Important Design Relationships
+## Architecture Status
 
-Workflow
-
-↓
-
-Capability
+Engineering Knowledge
 
 ↓
 
-Provider
+Engineering Architecture
 
+↓
 
-Registry provides discovery across resources.
-
-Atlas preserves evolution history.
-
----
-
-## Next Chapter
-
-Chapter 10 — Runtime
+Engineering Runtime
 
 ---
 
-## Open Topics
+## Next Phase
 
-- Runtime execution model
-- Capability execution flow
-- Provider invocation
-- Runtime state management
-- Event handling
-- Error recovery
+Design Review v1.0
+
+---
+
+## Review Topics
+
+- Architectural consistency
+- Boundary validation
+- Naming consistency
+- Cross-chapter relationships
+- Missing concepts
+- Registry completion
 
 ---
 
 ## Status
 
-Ready to continue.
+Ready for Design Review.
