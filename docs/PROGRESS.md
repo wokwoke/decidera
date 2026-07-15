@@ -9,8 +9,11 @@
 - Completed Chapter 06 — Workflows.
 - Continued Chapter 07 — Registry.
 - Completed Chapter 08 — Capability.
+- Completed Chapter 09 — Provider.
 
-### Domain Model Completed
+---
+
+## Domain Model Completed
 
 Defined:
 
@@ -24,7 +27,9 @@ Defined:
 - Provider
 - Registry
 
-### Workflow Foundation Completed
+---
+
+## Workflow Foundation Completed
 
 Defined:
 
@@ -36,9 +41,11 @@ Defined:
 - Workflow Composition
 - Workflow Recovery
 
-### Registry Foundation Completed
+---
 
-Defined:
+## Registry Foundation
+
+Completed:
 
 - Registry Overview
 - Registry Model
@@ -51,7 +58,9 @@ Remaining:
 
 - Registry Evolution
 
-### Capability Foundation Completed
+---
+
+## Capability Foundation Completed
 
 Defined:
 
@@ -63,7 +72,24 @@ Defined:
 - Capability Composition
 - Capability Evolution
 
-### Design Decisions
+---
+
+## Provider Foundation Completed
+
+Defined:
+
+- Provider Overview
+- Provider Model
+- Provider Types
+- Provider Lifecycle
+- Provider Discovery
+- Provider Selection
+- Provider Composition
+- Provider Evolution
+
+---
+
+## Design Decisions
 
 - Repository remains the Single Source of Truth.
 - Domain Model remains the canonical vocabulary.
@@ -73,7 +99,9 @@ Defined:
 - Workflow consumes capabilities.
 - Atlas preserves engineering evolution.
 
-### Core Relationship
+---
+
+## Core Relationship
 
 Workflow
 
@@ -86,10 +114,11 @@ Capability
 Provider
 
 
-Registry discovers and connects system resources.
+Registry discovers and connects resources.
 
-### Next Milestone
+---
 
-Complete Chapter 07 — Registry Evolution.
+## Next Milestone
 
-Then continue Design Book expansion.
+Begin Chapter 10 — Runtime.
+

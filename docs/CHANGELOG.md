@@ -6,28 +6,8 @@
 
 Added
 
-- Chapter 06 Workflows.
-- Chapter 07 Registry foundation.
-- Chapter 08 Capability.
-
-Workflow additions:
-
-- Workflow Overview.
-- Workflow Lifecycle.
-- Workflow Types.
-- Workflow Coordination.
-- Workflow States.
-- Workflow Composition.
-- Workflow Recovery.
-
-Registry additions:
-
-- Registry Overview.
-- Registry Model.
-- Registry Types.
-- Registry Lifecycle.
-- Registry Discovery.
-- Registry Validation.
+- Completed Chapter 08 Capability.
+- Completed Chapter 09 Provider.
 
 Capability additions:
 
@@ -39,26 +19,41 @@ Capability additions:
 - Capability Composition.
 - Capability Evolution.
 
+Provider additions:
+
+- Provider Overview.
+- Provider Model.
+- Provider Types.
+- Provider Lifecycle.
+- Provider Discovery.
+- Provider Selection.
+- Provider Composition.
+- Provider Evolution.
+
 Changed
 
-- Defined Registry as a discovery layer rather than a storage mechanism.
-- Defined Capability as an abstraction of system abilities.
-- Established relationship:
+- Established Capability as the abstraction of system abilities.
+- Established Provider as the implementation layer.
+- Defined relationship:
 
 Workflow
 → Capability
 → Provider
 
+- Strengthened Registry role as discovery layer.
+
 Notes
 
-Design Foundation now contains the main conceptual layers:
+The main architectural abstraction layers are now defined:
 
 - Domain Model
 - Architecture
-- Workflows
+- Workflow
 - Registry
 - Capability
+- Provider
 
 Remaining work:
 
-Complete Registry Evolution before continuing further Design Book expansion.
+- Complete Registry Evolution.
+- Continue Design Book with Runtime chapter.

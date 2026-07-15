@@ -3,7 +3,9 @@
 Session:
 Design Book Development
 
-Current Status
+---
+
+## Current Status
 
 Completed:
 
@@ -15,8 +17,11 @@ Completed:
 - Chapter 05 Architecture
 - Chapter 06 Workflows
 - Chapter 08 Capability
+- Chapter 09 Provider
 
-In Progress:
+---
+
+## In Progress
 
 Chapter 07 — Registry
 
@@ -33,11 +38,15 @@ Remaining:
 
 - Registry Evolution
 
-Current Phase
+---
+
+## Current Phase
 
 Design Foundation
 
-Important Design Relationships
+---
+
+## Important Design Relationships
 
 Workflow
 
@@ -52,18 +61,27 @@ Provider
 
 Registry provides discovery across resources.
 
-Next Document
+Atlas preserves evolution history.
 
-registry-evolution.md
+---
 
-Open Topics
+## Next Chapter
 
-- Stable Identifier strategy
-- Registry implementation
-- Capability Registry
-- Provider abstraction
-- Architecture boundaries
+Chapter 10 — Runtime
 
-Status
+---
+
+## Open Topics
+
+- Runtime execution model
+- Capability execution flow
+- Provider invocation
+- Runtime state management
+- Event handling
+- Error recovery
+
+---
+
+## Status
 
 Ready to continue.
